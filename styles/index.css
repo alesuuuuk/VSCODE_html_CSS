@@ -3,11 +3,37 @@ body{
 }
 
 
+
+.join.team {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-bottom: 50px; /* Зберігаємо попередній відступ */
+    width: 523px;
+    height: 97px;
+    border-radius: 14px;
+    background: #FF9E1F;
+    position: relative; /* Змінюємо на relative */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.join.team a{
+	text-decoration: none;
+	color: #FFFDFD;
+	font-family: Roboto;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+}
+
+
 .partners {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 120px;
+	
 }
 
 .partners h2 {
@@ -26,18 +52,7 @@ body{
     margin: 5px; /* Додатковий відступ між картинками */
 }
 
-
 ul li{ list-style: none}
-
-
-
-
-
-
-
-
-
-
 
 footer{
 	height: 292px;
@@ -100,3 +115,9 @@ ul li a{
 }
 
 
+@media screen and (max-width: 400px) {
+	footer{
+		width: 390px;
+		min-width: 390px;
+	}
+}
