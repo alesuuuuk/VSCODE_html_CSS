@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.partners h2 {
+    text-align: center;
+    margin-top: 20px; /* Відступ зверху */
+}
+
+.Vector__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Додатковий відступ між картинками */
+}
+
+.Vector__logos img {
+    margin: 5px; /* Додатковий відступ між картинками */
+}
+
+
+ul li{ list-style: none}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	height: 292px;
+	background-color: rgba(255, 145, 0, 0.90);
+	color: #fff;
+}
+.footer__value{
+	display: flex;
+    justify-content: space-around;
+	padding-bottom: 40px;
+	
+    margin: 0px 110px;
+}
+.footer__icon{
+	display: flex;
+	margin-top: 37px;
+
+}
+.footer__icon img{
+	height: 97px;
+	width: 97px;
+	margin-right: 26px;
+}
+.footer__menu, .contact{
+    margin-top: 37px;
+}
+
+ul li a{
+	color: #fff;
+    text-decoration: none;
+}
+
+
+.contact{
+	margin-left: 142px;
+	align-items: center;
+}
+
+.phone, .mail {
+	display: flex;
+	align-items: center;
+    text-decoration: none;
+}
+
+.phone a{
+	text-decoration: none;
+}
+
+.phone img, .mail img {
+	margin-right: 21px;
+}
+
+.social__media {
+	margin-left: 21px;
+}
+
+.social__media a img{
+	padding-left: 32px;
+    margin-top: 20px;
+}
+
+
