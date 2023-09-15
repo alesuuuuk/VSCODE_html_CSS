@@ -3,91 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT MISTO</title>
-    <link rel="stylesheet" href="/styles/index.css">
+    <title>Document</title>
 </head>
 <body>
+    <style>
+        label, input{
+            display: block;
+            margin-bottom: 7px;
+        }
+    </style>
+    <form action="">
+        <legend>title form</legend>
+        <label for="some">some text</label>
+        <input id="some" type="text" placeholder="enter your text" required>
+        <label for="numbers">for numbers</label>
+        <input id="numbers" type="number">
+        <label for="mail">type your email</label>
+        <input id="mail" type="email" required>
+        <label for="color"> choose ur fav color</label>
+        <input type="color" id="color" name="color">
+        <label for="date"></label>
+        <input type="date" id="date">
+        <label for="time">time</label>
+        <input type="time" id="time">
+        <label for="datetime">datetime</label>
+        <input type="datetime" id="datetime">
+        <label for="local datetime">local datetime</label>
+        <input type="datetime-local" id="local datetime">
+        <label for="radio_1" > radio_1</label>
+        <input name="radio" type="radio" id="radio_1" value="radio_1">
+        <label for="radio_2"> radio_2</label>
+        <input name="radio" type="radio" id="radio_2" value="radio_2">
+        <!-- check box -->
+            <label for="checkbox1">checkbox1</label>
+            <input type="checkbox" id="checkbox1" name="checkbox">
+            <label for="checkbox2">checkbox2</label>
+            <input type="checkbox" id="checkbox2" name="checkbox">
+        <!-- select -->
+        <select name="region" id="reg">
+            <option value="one">Lviv</option>
+            <option value="one">Kyiv</option>
+            and so on 
+        </select>
+        <!-- password -->
+        <label for="password"> ur password</label>
+        <input type="password" id="password" >
 
-    <div class="team__section">
-        <div class="pinkline">
-            <div></div>
-            <h2>КОМАНДА</h2>
-            <div></div>
-        </div>
+        <!-- text area -->
+        <textarea name="" id="" cols="30" rows="10"></textarea>
 
-        <div class="team__image">
-            <img src="img/Group 2 3.png" height="60px" width="60px" alt="">
-            <img src="img/Ellipse 2.svg" alt="">
-            <img src="img/Ellipse 1.svg" alt="">
-            <a class="cover__photo" href="#"></a>
-            <img src="img/Group 2 3.png" height="60px" width="60px" alt="">
-        </div>
-        <ul class="flip__throught">
-            <li></li>
-            <li></li>
-            <li class="color"></li>
-        </ul>
-    
 
-    <div class="join team">
-        <a class="" href="#">ПРИЄДНАТИСЯ ДО КОМАНДИ</a>
-    </div>
 
-    <section class="partners">
-        <h2>ПАРТНЕРИ</h2>
-        <div class="Vector__logos">
-            <img src="/images/Vector 1.png" alt="grey logo">
-            <img src="/images/Vector 1.png" alt="grey logo">
-            <img src="/images/Vector 1.png" alt="grey logo">
-            <img src="/images/Vector 1.png" alt="grey logo">
-            <img src="/images/Vector 5.png" alt="color logo">
-            <img src="/images/Vector 1.png" alt="grey logo">
-        </div>
-    </section>
 
-    <footer>
-        <div class="footer__value">
-            <div class="footer__icon">
-                <img src="/images/logo.png" alt="logo">
-                <p>
-                    Громадська  <br>організація  <br>ІТ - місто
-                </p>
-            </div>
-            <div class="footer__menu">
-                <ul>
-                    <li><a style="font-weight: bold;" href="#">Новини</a></li>
-                    <li><a href="#">Проекти</a></li>
-                    <li><a href="#">Команда</a></li>
-                </ul>
-            </div>
-            <div class="footer__menu">
-                <ul>
-                    <li><a href="#">Про нас</a></li>
-                    <li><a href="#">Коворкінг</a></li>
-                </ul>
-            </div>
-            <div class="contact">
-                <div class="phone">
-                    <img src="/images/telephone.png" alt="telephone img">
-                    <a href="tel:+380XXXXXXXXX">+380 XX XXX XX XX</a>
-                </div>
-                <div class="mail">
-                    <img src="/images/email.png" alt="email img">
-                    <a href="#">temp@temp.com</a>
-                </div>
-                <div class="social__media">
-                    <a href="#" target="_blank">
-                        <img src="/images/telegram 1.png" alt="telegram img">
-                    </a>
-                    <a href="#" target="_blank">
-                        <img src="/images/facebook 1.png" alt="facebook img">
-                    </a>
-                    <a href="#" target="_blank">
-                        <img src="/images/instagram (1) 1.png" alt="instagram img">
-                    </a>
-                </div>
-            </div>
 
-    </footer>
+
+        <!-- submit -->
+        <input type="submit" value="">
+        
+    </form>
 </body>
 </html>
