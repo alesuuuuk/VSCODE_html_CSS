@@ -1,0 +1,52 @@
+.some_class{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+.ask_question{
+	margin-left: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.ask_question legend{
+	margin-bottom: 40px;
+	
+}
+
+.ask_question input{
+	width: max-content;
+	margin-bottom: 40px;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 1px solid 	rgba(109, 109, 109, 1);
+	;
+}
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+  }
+
+.grey__line{
+	height: 1px;
+	background-color: 
+	rgba(109, 109, 109, 1);
+	margin-bottom: 30px;
+}
+input:focus {
+    outline:none;
+}
+
+.submit{
+	justify-content: center;
+	align-items: center;
+	
+}
+.submit__text{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
