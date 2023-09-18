@@ -2,18 +2,199 @@ body{
     margin: 0;
 }
 
+.hero{
+	display: flex;
+	padding: 0px 15px;
+    margin: 0px auto;
+	width: 1202px;
+}
+
+
+
+
+
+.active__projects{
+	margin-bottom: 102px;
+}
+
+
+.orangeline{
+	display: flex;
+	align-items: center;
+}
+
+
+.orangeline div{
+	height: 2px;
+	width: 100%;
+	background-color: #FF9100;
+	margin: 0 25px;
+}
+
+.orangeline h2{
+	white-space: nowrap;
+}
+
+.orangeline h2{
+	padding: 0 26px;
+	display: block;
+	text-align: center;
+	color: #FF9100;
+	font-family: Roboto;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.text{
+	color: #374B5C;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 50px;
+}
+
+.card__projects{
+	display: flex;
+	justify-content: space-around;
+}
+
+.card__projects div{
+	width: 261px;
+	height: 310px;
+	background-color: #FF9100;
+	border-radius: 24px;
+	margin-left: 100px;
+	transition: 1s;
+}
+
+.card__projects img{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	display: block;
+}
+
+.card__projects h3{
+	color: #FFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.card__projects p{
+		color: #FFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.card__projects div:hover{
+	background-color: #D46363;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.team__section{
+	background-color:  rgba(255, 168, 0, 0.06);
+	margin-top: 100px;
+}
+
+
+
+.team__image{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.team__image_developer_icon{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+
+.cover__photo{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-image: url(/images/lialuk\ Ihor.jfif);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover__photo:hover{
+	height: 250px;
+	width: 250px;
+	background-image: url(/images/lialuk\ hover.png);
+	transition: 2s;
+}
+.flip__throught{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+}
+.flip__throught li{
+	width: 24px;
+	height: 24px;
+	justify-content: space-around;
+	background: #c4c4c4;
+	border-radius: 50%;
+	margin: 11px;
+	margin-top: 37px;
+	margin-bottom: 66px;
+}
+.flip__throught .color{
+	background-color: #D46363;
+}
+.pinkline{
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.pinkline div{
+	height: 2px;
+	width: 100%;
+	background-color: #D46363;
+	margin: 0 25px;
+}
+.pinkline h2{
+	white-space: nowrap;
+}
+
+.pinkline h2{
+	padding: 0 26px;
+	font-family: Roboto;
+	text-align: center;
+	color: #D46363; 
+	display: block;
+}
+
 
 
 .join.team {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    margin-bottom: 50px; /* Зберігаємо попередній відступ */
+    margin-bottom: 50px; 
     width: 523px;
     height: 97px;
     border-radius: 14px;
     background: #FF9E1F;
-    position: relative; /* Змінюємо на relative */
+    position: relative; 
     left: 50%;
     transform: translateX(-50%);
 }
@@ -50,6 +231,13 @@ body{
 
 .Vector__logos img {
     margin: 5px; /* Додатковий відступ між картинками */
+	filter: grayscale(1);
+	transition: 1s;
+}
+
+.Vector__logos img:hover{
+	filter: none;
+	transition: 1s;
 }
 
 ul li{ list-style: none}
@@ -115,9 +303,3 @@ ul li a{
 }
 
 
-@media screen and (max-width: 400px) {
-	footer{
-		width: 390px;
-		min-width: 390px;
-	}
-}
