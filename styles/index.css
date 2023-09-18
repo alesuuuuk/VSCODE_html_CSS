@@ -1,7 +1,14 @@
 body{
-    margin: 0;
+    margin: 0px;
+}
+html{
+	margin: 0px;
+}
+.to__comit{
+	background-color: #D46363;
 }
 
+<<<<<<< HEAD
 .hero{
 	display: flex;
 	padding: 0px 15px;
@@ -159,11 +166,18 @@ body{
 }
 .flip__throught .color{
 	background-color: #D46363;
+=======
+.team__section{
+	background-color: #fceded;
+>>>>>>> e63d9d32d257f708344b5e243a01de2293c23264
 }
 .pinkline{
 	display: flex;
 	align-items: center;
+<<<<<<< HEAD
 	margin-bottom: 30px;
+=======
+>>>>>>> e63d9d32d257f708344b5e243a01de2293c23264
 }
 .pinkline div{
 	height: 2px;
@@ -174,6 +188,7 @@ body{
 .pinkline h2{
 	white-space: nowrap;
 }
+<<<<<<< HEAD
 
 .pinkline h2{
 	padding: 0 26px;
@@ -183,7 +198,20 @@ body{
 	display: block;
 }
 
+=======
+>>>>>>> e63d9d32d257f708344b5e243a01de2293c23264
 
+.pinkline h2{
+	padding: 0 26px;
+	text-align: center;
+	color: #D46363; 
+	display: block;
+}
+.team__image{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 
 .join.team {
 	display: flex;
@@ -303,3 +331,12 @@ ul li a{
 }
 
 
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 400px) {
+	footer{
+		width: 390px;
+		min-width: 390px;
+	}
+}
+>>>>>>> e63d9d32d257f708344b5e243a01de2293c23264
